@@ -1,0 +1,26 @@
+li a{
+    color: #2f82f7;
+    font-size: 20px;
+    padding: 10px;
+}
+.conteudos{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+ol{
+    list-style-type: decimal;
+    color: #2f82f7;
+
+}
+li{
+    
+    margin-left: 50px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+li:hover {
+    transform: translateX(10px);
+    text-decoration: underline;
+}
+

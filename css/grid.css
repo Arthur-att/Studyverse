@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;0,900;1,500&display=swap');
+
+
+.container {
+    flex-direction: column;
+    padding-block: 180px;
+    background-color: #F2E5D5;
+
+}
+
+.materias{
+    margin-block: 20px;
+    display: flex;
+    text-transform: capitalize;
+    max-width: 50%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.materias > div {
+    flex: 1 1 40px;
+}
+
+.port{
+    background-color: #012340e5;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: transform 0.3s ease-in-out;
+}
+.port:hover {
+    transform: translateY(-10px);
+}
+
+.mat{
+    background-color: #012340e5;
+    padding: 30px;
+    margin: 10px;
+    white-space: 200px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: transform 0.3s ease-in-out;
+}
+.mat:hover {
+    transform: translateY(-10px);
+}
+
+.hist{
+    background-color: #012340e5;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: transform 0.3s ease-in-out;
+}
+.hist:hover {
+    transform: translateY(-10px);
+}
+
+.geog{
+    background-color: #012340e5;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: transform 0.3s ease-in-out;
+}
+.geog:hover {
+    transform: translateY(-10px);
+}
+
+.cies{
+    background-color: #012340e5;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: transform 0.3s ease-in-out;
+}
+.cies:hover {
+    transform: translateY(-10px);
+}
+
+#a-grid{
+    padding: 30px;
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+}
